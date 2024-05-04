@@ -1,0 +1,83 @@
+      /* Continue product description styling */
+      font-size: 0.9em;
+      line-height: 1.4;
+      color: #666; /* Slightly lighter color for body text */
+    }
+    .product:hover {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer p {
+      margin: 0;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .products .product {
+        width: calc(50% - 20px); /* Adjust product grid for smaller screens */
+      }
+      nav li {
+        margin-right: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .products .product {
+        width: 100%; /* Full width products on very small screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="images/logo.png" alt="Rosa Logo">Rosa</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#makeup">Makeup</a></li>
+        <li><a href="#skincare">Skincare</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div class="banner">
+    <div class="banner-text">
+      <h2>Welcome to Rosa</h2>
+      <p>Discover luxury in every touch</p>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="products">
+      <div class="product">
+        <img src="images/lipstick.jpg" alt="Luxury Lipstick">
+        <h3>Luxury Lipstick</h3>
+        <p>Enhance your beauty with vibrant colors and rich texture.</p>
+      </div>
+      <div class="product">
+        <img src="images/moisturizer.jpg" alt="Hydrating Moisturizer">
+        <h3>Hydrating Moisturizer</h3>
+        <p>Moisturize deeply for glowing, healthy skin.</p>
+      </div>
+      <div class="product">
+        <img src="images/foundation.jpg" alt="Silky Foundation">
+        <h3>Silky Foundation</h3>
+        <p>Achieve flawless coverage and a seamless blend.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Rosa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
